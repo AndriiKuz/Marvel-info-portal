@@ -50,3 +50,13 @@
     }
   }
 }
+
+@media (min-width: 20em) and (max-width: 48em) {
+  .char {
+    &__search {
+      &-wrapper {
+        gap: 15px;
+      }
+    }
+  }
+}

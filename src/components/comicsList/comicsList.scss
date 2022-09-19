@@ -48,3 +48,14 @@
     }
   }
 }
+
+@media (min-width: 20em) and (max-width: 48em) {
+  .comics {
+    &__grid {
+      display: flex;
+      flex-direction: column;
+      gap: 55px;
+      align-items: center;
+    }
+  }
+}
