@@ -62,7 +62,7 @@
   }
 }
 
-@media (min-width: 20em) and (max-width: 48em) {
+@media (min-width: 20em) and (max-width: 35em) {
   .randomchar {
     grid-template-columns: 1fr;
     &__block {
@@ -73,8 +73,8 @@
       gap: 30px;
     }
     &__img {
-      width: 320px;
-      height: 320px;
+      width: 280px;
+      height: 280px;
     }
     &__descr {
       max-height: max-content;
@@ -82,7 +82,7 @@
     &__info {
       display: flex;
       flex-direction: column;
-      width: 100%;
+      width: 280px;
       gap: 10px;
       padding-top: 3px;
     }
@@ -90,6 +90,14 @@
       display: flex;
       gap: 20px;
       justify-content: center;
+    }
+    &__title {
+      font-size: 18px;
+    }
+    &__decoration {
+      scale: 0.8;
+      bottom: 0;
+      right: -50px;
     }
   }
 }

@@ -38,7 +38,12 @@
   }
 }
 
-@media (min-width: 20em) and (max-width: 48em) {
+@media (min-width: 20em) and (max-width: 35em) {
+  main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
   .single-comic {
     margin-top: 50px;
     display: flex;
@@ -46,5 +51,9 @@
     gap: 50px;
     align-items: center;
     justify-content: center;
+    max-width: 293px;
+    &__descr {
+      margin-top: 15px;
+    }
   }
 }
