@@ -89,6 +89,12 @@ main {
 }
 
 @media (min-width: 20em) and (max-width: 35em) {
+  #root {
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
   .app {
     margin: 0 auto;
     padding: 50px 8px 50px 8px;
